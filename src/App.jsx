@@ -61,12 +61,20 @@ function App() {
         </section>
 
         <section className="contact">
-          <h2>Get In Touch</h2>
-          <p className="contact-name">Sebastian Korfmann</p>
+          <h2>Created by Sebastian Korfmann</h2>
           <div className="contact-links">
-            <a href="mailto:sebastian@korfmann.net">sebastian@korfmann.net</a>
-            <a href="https://www.linkedin.com/in/skorfmann" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            <a href="https://bsky.app/profile/skorfmann.com" target="_blank" rel="noopener noreferrer">@skorfmann.com on Bluesky</a>
+            <a href="mailto:sebastian@korfmann.net" className="contact-link">
+              <span className="icon">✉️</span>
+              <span>Email</span>
+            </a>
+            <a href="https://www.linkedin.com/in/skorfmann" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <span className="icon">💼</span>
+              <span>LinkedIn</span>
+            </a>
+            <a href="https://bsky.app/profile/skorfmann.com" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <span className="icon">🦋</span>
+              <span>Bluesky</span>
+            </a>
           </div>
         </section>
       </div>
