@@ -12,26 +12,26 @@ function App() {
         <section className="tech-stack">
           <h2>The Mobile Dev Setup</h2>
           <div className="tech-cards">
-            <div className="tech-card">
+            <a href="https://apps.apple.com/us/app/webssh-pro/id497714887" target="_blank" rel="noopener noreferrer" className="tech-card">
               <h3>📱 WebSSH</h3>
               <p>iOS app providing terminal access from my iPhone</p>
-            </div>
-            <div className="tech-card">
+            </a>
+            <a href="https://tailscale.com" target="_blank" rel="noopener noreferrer" className="tech-card">
               <h3>🔗 Tailscale</h3>
               <p>Secure connection to my Mac Studio at home</p>
-            </div>
-            <div className="tech-card">
+            </a>
+            <a href="https://github.com/anthropics/claude-code" target="_blank" rel="noopener noreferrer" className="tech-card">
               <h3>🤖 Claude Code</h3>
               <p>AI pair programmer that wrote this entire app</p>
-            </div>
-            <div className="tech-card">
+            </a>
+            <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer" className="tech-card">
               <h3>⚡ Vite + React</h3>
               <p>Lightning fast development with modern tooling</p>
-            </div>
-            <div className="tech-card">
+            </a>
+            <a href="https://vercel.com" target="_blank" rel="noopener noreferrer" className="tech-card">
               <h3>▲ Vercel</h3>
               <p>Deployed instantly from the command line</p>
-            </div>
+            </a>
           </div>
         </section>
 
