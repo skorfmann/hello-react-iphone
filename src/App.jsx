@@ -75,6 +75,10 @@ function App() {
               <span className="icon">🦋</span>
               <span>Bluesky</span>
             </a>
+            <a href="https://github.com/skorfmann/hello-react-iphone" target="_blank" rel="noopener noreferrer" className="contact-link">
+              <span className="icon">💻</span>
+              <span>Source Code</span>
+            </a>
           </div>
         </section>
       </div>
