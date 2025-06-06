@@ -60,6 +60,20 @@ function App() {
           </ol>
         </section>
 
+        <section className="screenshots">
+          <h2>Behind the Scenes</h2>
+          <p className="screenshot-note">
+            Here are actual screenshots from my iPhone showing the WebSSH session where this site was built.
+            <br />
+            <em>(Note: These screenshots were added from the computer afterwards. With proper MCP access to photos, this could be done directly from the phone too!)</em>
+          </p>
+          <div className="screenshot-grid">
+            <img src="/screenshot-1.jpeg" alt="Claude Code session starting on iPhone" />
+            <img src="/screenshot-2.jpeg" alt="Writing CSS code via WebSSH" />
+            <img src="/screenshot-3.jpeg" alt="Deploying to Vercel from iPhone" />
+          </div>
+        </section>
+
         <section className="contact">
           <h2>Created by Sebastian Korfmann</h2>
           <div className="contact-links">
