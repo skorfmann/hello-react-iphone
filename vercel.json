@@ -1,8 +1,3 @@
 {
-  "public": true,
-  "functions": {
-    "api/og.jsx": {
-      "maxDuration": 10
-    }
-  }
+  "public": true
 }
