@@ -99,7 +99,7 @@
 
 .workflow {
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 3rem;
 }
 
 .workflow ol {
@@ -112,6 +112,49 @@
 .workflow li {
   margin-bottom: 0.5rem;
   padding-left: 0.5rem;
+}
+
+.contact {
+  max-width: 600px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  padding: 2rem;
+  background: rgba(102, 126, 234, 0.05);
+  border-radius: 20px;
+}
+
+.contact h2 {
+  margin-bottom: 1.5rem;
+}
+
+.contact-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.contact-links a {
+  color: #667eea;
+  text-decoration: none;
+  font-size: 1.1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+.contact-links a:hover {
+  background: rgba(102, 126, 234, 0.1);
+  transform: translateY(-2px);
+  text-decoration: none;
 }
 
 footer {
@@ -166,5 +209,9 @@ footer p {
   
   .content {
     padding: 2rem 1rem;
+  }
+  
+  .contact-links {
+    flex-direction: column;
   }
 }

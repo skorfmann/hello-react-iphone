@@ -59,6 +59,16 @@ function App() {
             <li>Deploy to Vercel with a single command</li>
           </ol>
         </section>
+
+        <section className="contact">
+          <h2>Get In Touch</h2>
+          <p className="contact-name">Sebastian Korfmann</p>
+          <div className="contact-links">
+            <a href="mailto:sebastian@korfmann.net">sebastian@korfmann.net</a>
+            <a href="https://www.linkedin.com/in/skorfmann" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://bsky.app/profile/skorfmann.com" target="_blank" rel="noopener noreferrer">@skorfmann.com on Bluesky</a>
+          </div>
+        </section>
       </div>
 
       <footer>
